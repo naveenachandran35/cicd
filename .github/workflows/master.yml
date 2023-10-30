@@ -15,6 +15,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: 85.187.128.50	
-        username: ${{ secrets.ftp_username }}
-        password: ${{ secrets.ftp_password }}
+        username: production@cicd.productpreview.in
+        password: God52237
         server-dir: public_html/production.cicd.productpreview.in/
