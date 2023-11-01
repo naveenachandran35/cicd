@@ -14,7 +14,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: 85.187.128.50	
+        server: 85.187.128.50
         username: staging@cicd.productpreview.in
         password: Hy7bpYAKEzwc@!#
         server-dir: public_html/staging.cicd.productpreview.in/
